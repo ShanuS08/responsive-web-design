@@ -1,0 +1,72 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  
+  body{
+    background-color: #ffffff;
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+  #navbar{
+    position: fixed;
+    text-align: center;
+    display: block;
+    border-right: 1.5px black solid;
+    width: 15%;
+    height: 100%;
+    padding: 20px 20px;
+    overflow: hidden;
+    float: left;
+  }
+
+  nav header h1{
+    font-weight: 500;
+    margin: 1.5em 1em; 
+    font-size: 30px;
+    font-style: bold;
+  }
+
+  a, nav ul li{
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+    text-align:left;
+    font-size: 20px;
+    margin: 2em 0em 2em 0em;
+  }
+
+  nav > ul > li:hover {
+    background-color: #0a0a0f;
+    color: #f2f2fa;
+    cursor: pointer;
+  }
+
+  main{
+    position: absolute;
+    left: 20%;
+    padding: 0.5em;
+    overflow: hidden;
+  }
+
+  section p, section li,section ul{
+    margin-left: 1em 
+  }
+
+  code{
+    height: 1.5em;
+    font-size: 1.3em;
+    font-style: italic;
+  }
+  .main-section{
+    margin-bottom: 2.5em;
+  }
+  section ul{
+    margin-left:-2.5em;
+  }
+  hr{
+    width: auto;
+    height: auto;
+  }
