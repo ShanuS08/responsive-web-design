@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <head>
+    <title>
+      <h1>GreenHouse</h1>
+      </title>
+    </head>
+    <link rel="stylesheet" href="styles.css" />
+    <body>
+      <h1 id="title">GreenHouse Survey Form</h1>
+      <p id="description">Thankyou for giving the time to helps us improve the platform</p>
+      <form method="post" id="survey-form" action='https://register-demo.freecodecamp.org'>
+        <fieldset>
+        <label id="name-label" for="name">Name: <input id="name" placeholder="Enter your name" type="text" required ></input></label>
+        <label id="email-label"for="email">Email: <input id="email" type="email" placeholder="Enter your email" required></input></label>
+
+        <label id="number-label"for="number">Age: <input id="number" type="number" min="15" max="120" placeholder="Enter your age" required></input>
+        </label>
+        </fieldset>
+        <fieldset><label>Which type of GreenHouse is used?
+<select id="dropdown">
+  <option>select option</option>
+  <option>Wooden framed structures</option>
+  <option>Natural Vent Greenhouse </option>
+  <option>Climate Control Greenhouse </option>
+  <option>Other</option>
+</select></label><label></fieldset>
+<fieldset>
+<label>Would you recommend GreenHouse to a friend?</label>
+<label for="recommend" class="recommend">
+<input type="radio" name="recommend" value="yes" class="inline"id="recommend"></input> Yes</label>
+<label for="recommend" ><input id="recommend"type="radio" class="inline"name="recommend"  value="no"> No</input></label></fieldset><fieldset>
+<label >What are the vegetables are well good?</label><input type="checkbox" class="inline" value="brinjal"> Brinjal</label>
+<label> <input class="inline" type="checkbox" value="tomato">Tomato</label>
+<label> <input type="checkbox" value="beans"class="inline">Beans</label>
+</fieldset>
+<fieldset>
+<label for="comment">Comments <textarea id="comment" name="comment" row="3" cols="30" placeholder="Add a comment"></textarea></label></fieldset>
+ <input type="submit" id="submit" value="Submit" />
+
+</fieldset>
+      </form>
+      </body>
+  </html>
